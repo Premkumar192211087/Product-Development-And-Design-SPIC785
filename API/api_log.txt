@@ -1,0 +1,50 @@
+2025-05-02 11:44:18 - Request received: /API/products_get.php?store_id=1
+2025-05-02 11:44:18 - Processing request for store_id: 1
+2025-05-02 11:44:18 - Found 4 products
+2025-05-02 11:44:18 - Encoded BLOB to base64 for product ID: 1
+2025-05-02 11:44:18 - Encoded BLOB to base64 for product ID: 2
+2025-05-02 11:44:18 - Encoded BLOB to base64 for product ID: 6
+2025-05-02 11:44:18 - No image for product ID: 7
+2025-05-02 11:44:18 - Successfully processed request for store_id: 1
+2025-05-03 06:26:15 - Request received: /API/products_get.php?store_id=1
+2025-05-03 06:26:15 - Processing request for store_id: 1
+2025-05-03 06:26:15 - Found 4 products
+2025-05-03 06:26:15 - Encoded BLOB to base64 for product ID: 1
+2025-05-03 06:26:15 - Encoded BLOB to base64 for product ID: 2
+2025-05-03 06:26:15 - No image for product ID: 9
+2025-05-03 06:26:15 - No image for product ID: 12
+2025-05-03 06:26:15 - Successfully processed request for store_id: 1
+2025-05-03 06:36:20 - Request received: /API/products_get.php?store_id=1
+2025-05-03 06:36:20 - Processing request for store_id: 1
+2025-05-03 06:36:20 - Found 4 products
+2025-05-03 06:36:20 - Encoded BLOB to base64 for product ID: 1
+2025-05-03 06:36:20 - Encoded BLOB to base64 for product ID: 2
+2025-05-03 06:36:20 - No image for product ID: 9
+2025-05-03 06:36:20 - No image for product ID: 13
+2025-05-03 06:36:20 - Successfully processed request for store_id: 1
+2025-05-03 07:07:10 - Request received: /API/products_get.php?store_id=1
+2025-05-03 07:07:10 - Processing request for store_id: 1
+2025-05-03 07:08:19 - Request received: /API/products_get.php?store_id=1
+2025-05-03 07:08:19 - Processing request for store_id: 1
+2025-05-03 07:08:19 - Found 5 products
+2025-05-03 07:08:19 - Successfully processed request for store_id: 1
+2025-05-03 07:10:43 - Request received: /API/products_get.php?store_id=1
+2025-05-03 07:10:43 - Processing request for store_id: 1
+2025-05-03 07:10:43 - Found 5 products
+2025-05-03 07:10:43 - Successfully processed request for store_id: 1
+2025-05-03 07:46:50 - Request received: /API/products_get.php?store_id=1
+2025-05-03 07:46:50 - Processing request for store_id: 1
+2025-05-03 07:46:50 - Found 5 products
+2025-05-03 07:46:50 - Successfully processed request for store_id: 1
+2025-05-05 12:29:00 - Request received: /API/products_get.php?store_id=1
+2025-05-05 12:29:00 - Processing request for store_id: 1
+2025-05-05 12:29:00 - Found 37 products
+2025-05-05 12:29:00 - Successfully processed request for store_id: 1
+2025-05-20 13:11:34 - Request received: /API/products_get.php?store_id=1
+2025-05-20 13:11:34 - Processing request for store_id: 1
+2025-05-20 13:11:34 - Found 37 products
+2025-05-20 13:11:34 - Successfully processed request for store_id: 1
+2025-05-21 06:15:10 - Request received: /API/products_get.php?store_id=1
+2025-05-21 06:15:10 - Processing request for store_id: 1
+2025-05-21 06:15:10 - Found 37 products
+2025-05-21 06:15:10 - Successfully processed request for store_id: 1

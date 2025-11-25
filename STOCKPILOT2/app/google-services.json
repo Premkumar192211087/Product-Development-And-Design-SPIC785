@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "185118671669",
+    "project_id": "stockpilot-9fb7b",
+    "storage_bucket": "stockpilot-9fb7b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185118671669:android:3489c042a7630b2fb5827c",
+        "android_client_info": {
+          "package_name": "com.example.stockpilot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv1u_YYYEcOY0Gubr67m5xtrfl9nmon6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

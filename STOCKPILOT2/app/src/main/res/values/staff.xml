@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="staff_roles">
+        <item>Manager</item>
+        <item>Cashier</item>
+        <item>Stock Keeper</item>
+        <item>Sales Assistant</item>
+    </string-array>
+</resources>

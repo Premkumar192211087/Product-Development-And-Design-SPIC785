@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_edit_bill"
+        android:title="Edit" />
+    <item
+        android:id="@+id/action_record_payment"
+        android:title="Record Payment" />
+    <item
+        android:id="@+id/action_mark_as_paid"
+        android:title="Mark as Paid" />
+    <item
+        android:id="@+id/action_delete_bill"
+        android:title="Delete" />
+</menu>

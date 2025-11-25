@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="4dp"
+    card_view:cardCornerRadius="8dp"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Invoice Number and Date -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_invoice_number"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="INV-20230911-001"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_sale_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2023-09-11"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp"
+                android:gravity="end"
+                />
+        </LinearLayout>
+
+        <!-- Customer Name -->
+        <TextView
+            android:id="@+id/tv_customer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Customer: John Doe"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            />
+
+        <!-- Payment Info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:id="@+id/tv_payment_method"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Payment: Credit Card"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_payment_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status: PAID"
+                android:textColor="@color/green"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+
+        <!-- Number of Items and Served by -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:id="@+id/tv_items_count"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="3 items"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_served_by"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Served by: Alice"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+
+        <!-- Total amount and Print button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:background="@color/light_gray">
+
+            <TextView
+                android:id="@+id/tv_final_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹1234.00"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                />
+
+            <Button
+                android:id="@+id/btn_print_receipt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Print"
+                android:textColor="@color/primary"
+                android:backgroundTint="@android:color/transparent"
+                android:padding="6dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

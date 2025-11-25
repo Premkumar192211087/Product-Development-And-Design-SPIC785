@@ -1,0 +1,9 @@
+toml
+[versions]
+// ... other versions
+googleGmsGoogleServices = "4.4.2" // This version will be used by the plugin alias
+
+[plugins]
+// ... other plugins
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+    

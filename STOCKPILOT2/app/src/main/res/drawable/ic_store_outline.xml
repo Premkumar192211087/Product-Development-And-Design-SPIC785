@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorOnSurface">
+
+    <!-- Store outline icon -->
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M12,18H6V14H4V18C4,19.1 4.9,20 6,20H18C19.1,20 20,19.1 20,18V14H18V18H12Z"/>
+
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M18,7L16,3H8L6,7H4C2.9,7 2,7.9 2,9V12C2,13.1 2.9,14 4,14V18C4,19.1 4.9,20 6,20H18C19.1,20 20,19.1 20,18V14C21.1,14 22,13.1 22,12V9C22,7.9 21.1,7 20,7H18M8.8,5H15.2L16.2,7H7.8L8.8,5M20,9V12H18V10H16V12H14V10H12V12H10V10H8V12H6V10H4V12H4V9H20M6,14H8V18H6V14M10,14H12V18H10V14M14,14H16V18H14V14M18,14V18V14Z"/>
+</vector>

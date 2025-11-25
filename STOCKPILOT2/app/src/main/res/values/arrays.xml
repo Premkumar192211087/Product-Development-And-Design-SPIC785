@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="chart_periods">
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Quarterly</item>
+        <item>Yearly</item>
+    </string-array>
+
+    <string-array name="purchase_order_filters">
+        <item>All</item>
+        <item>Pending</item>
+        <item>Partial</item>
+        <item>Received</item>
+        <item>Cancelled</item>
+    </string-array>
+</resources>

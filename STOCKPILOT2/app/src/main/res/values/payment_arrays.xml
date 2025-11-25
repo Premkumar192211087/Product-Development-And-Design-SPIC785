@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="payment_method_options">
+        <item>Cash</item>
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+        <item>UPI</item>
+        <item>Net Banking</item>
+        <item>Cheque</item>
+    </string-array>
+    
+    <string-array name="payment_status_options">
+        <item>Paid</item>
+        <item>Pending</item>
+        <item>Partial</item>
+    </string-array>
+    
+    <string-array name="amount_range_options">
+        <item>All</item>
+        <item>0-1000</item>
+        <item>1001-5000</item>
+        <item>5001-10000</item>
+        <item>10001+</item>
+    </string-array>
+</resources>
